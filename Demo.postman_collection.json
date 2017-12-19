@@ -1,0 +1,127 @@
+{
+	"id": "a2ebccb5-7f95-303b-eb9d-ad1f4151036e",
+	"name": "Demo",
+	"description": "",
+	"order": [
+		"29fb803b-9306-00c4-1a3a-267a7def3cf7",
+		"6d09fc20-542e-1fd0-342e-6113fd630420",
+		"a85a2631-a6d9-7004-041c-a5c3f80067d4",
+		"0724c40e-2d9b-c02c-a9be-d4e488f2fa1e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1513614989430,
+	"owner": "2218545",
+	"public": false,
+	"requests": [
+		{
+			"id": "0724c40e-2d9b-c02c-a9be-d4e488f2fa1e",
+			"headers": "X-Auth-Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTE0MjMyNDgzfQ.pk2IChu1SH7DJL0ROaM_5G4S6zSjpqcSVPDJoR8vfK4GOxcIcoohehzLi4hz5K5hQ5qCqyDviRC4N-wc_QuYng\n",
+			"headerData": [
+				{
+					"key": "X-Auth-Token",
+					"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTE0MjMyNDgzfQ.pk2IChu1SH7DJL0ROaM_5G4S6zSjpqcSVPDJoR8vfK4GOxcIcoohehzLi4hz5K5hQ5qCqyDviRC4N-wc_QuYng",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/profile/info/bogdan-todoriko-b4871b43",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513694378982,
+			"name": "localhost:8080/profile/info",
+			"description": "",
+			"collectionId": "a2ebccb5-7f95-303b-eb9d-ad1f4151036e",
+			"responses": []
+		},
+		{
+			"id": "29fb803b-9306-00c4-1a3a-267a7def3cf7",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/auth/ping",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513631066332,
+			"name": "localhost:8080/auth/ping",
+			"description": "",
+			"collectionId": "a2ebccb5-7f95-303b-eb9d-ad1f4151036e",
+			"responses": []
+		},
+		{
+			"id": "6d09fc20-542e-1fd0-342e-6113fd630420",
+			"headers": "X-Auth-Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTE0MjMyNDgzfQ.pk2IChu1SH7DJL0ROaM_5G4S6zSjpqcSVPDJoR8vfK4GOxcIcoohehzLi4hz5K5hQ5qCqyDviRC4N-wc_QuYng\n",
+			"headerData": [
+				{
+					"key": "X-Auth-Token",
+					"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTE0MjMyNDgzfQ.pk2IChu1SH7DJL0ROaM_5G4S6zSjpqcSVPDJoR8vfK4GOxcIcoohehzLi4hz5K5hQ5qCqyDviRC4N-wc_QuYng",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/linkedin/ping",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513631073060,
+			"name": "localhost:8080/profile/ping",
+			"description": "",
+			"collectionId": "a2ebccb5-7f95-303b-eb9d-ad1f4151036e",
+			"responses": []
+		},
+		{
+			"id": "a85a2631-a6d9-7004-041c-a5c3f80067d4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/auth/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1513631063161,
+			"name": "localhost:8080/auth/login",
+			"description": "",
+			"collectionId": "a2ebccb5-7f95-303b-eb9d-ad1f4151036e",
+			"responses": [],
+			"rawModeData": "{\t\n\t\"username\":\"user\",\n\t\"password\":\"user\"\n}"
+		}
+	]
+}
